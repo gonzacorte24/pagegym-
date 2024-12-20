@@ -653,13 +653,17 @@ nav {
 }
 
 @media (width < 400px) {
-    .footer__container {
-     font-size: 10px;
-    }
+     .footer__container {
+          font-size: 10px;
+     }
 
-    .join__grid{
-     padding: 10px;
-     margin: 0;
-     background-color: transparent;
-    }
+     .join__grid {
+          padding: 10px;
+          margin: 0;
+          background-color: transparent;
+     }
+
+     .header__container::before {
+          content: none;
+     }
 }
